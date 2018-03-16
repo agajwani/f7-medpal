@@ -1,0 +1,111 @@
+.avtar-img{
+  width:100px;
+  height:100px;
+  vertical-align: middle;
+  border-style: none;
+
+}
+.container-content{
+      width: auto;
+      display: flex;
+      min-height:180px;
+      background-color: #fff;
+      border-radius:5px;
+      flex-wrap: wrap;
+      margin: 20px 10px;
+      padding: 10px 55px 35px 55px;
+      justify-content: center;
+}
+.box{
+  color: #000;
+    background: #24C6DC;
+    background: -webkit-linear-gradient(to top, #514A9D, #24C6DC);
+    background: linear-gradient(to top, #514A9D, #24C6DC);
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    height: 900px;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row-heading{
+  display:grid;
+  position: absolute;
+  top:200px;
+  padding: 10px;
+}
+.app-heading{
+  font-size:16px;
+  justify-content: center;
+}
+.app-title{
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.user{
+  -webkit-box-pack:center;
+  justify-content: center;
+}
+.flex-column{
+  display:flex;
+  flex-direction: column;
+}
+.title{
+  float:left;
+}
+.card1{
+  background-color: #fff;
+  margin: 15px 0;
+  border-top: 1px soild #dadada;
+  border-bottom: 1px soild #dadada;
+  position: relative;
+  border-radius: 2px;
+
+}
+.card1-header{
+  padding: 10px;
+    padding-bottom: 5px;
+    -webkit-box-pack: inherit;
+    -ms-flex-pack: inherit;
+    justify-content: inherit;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 2px 2px 0 0;
+
+}
+.avatar{
+
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.user-flex{
+  justify-content: center;
+}
+.title{
+  font-weight: 700;
+  font-size:20px;
+  padding: 18px 0;
+
+}
+.user-title1{
+  color: #5054a0;
+}
+.container-form-content{
+  width: auto;
+    display: flex;
+    min-height: 180px;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+}

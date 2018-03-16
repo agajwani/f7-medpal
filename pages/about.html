@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="../css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="../css/my-app.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <!--link of font icon file-->
+    <link rel="stylesheet" href="../css/framework7-icons.css">
+    <link rel="apple-touch-icon" href="../img/f7-icon-square.png">
+    <link rel="icon" href="../img/f7-icon.png">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      <div class="panel panel-left panel-cover panel-reveal theme-dark">
+        <div class="page page-current">
+          <div class="navbar">
+            <div class="navbar-inner sliding">
+              <div class="title">
+                Medpal
+              </div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="list">
+              <ul>
+                <li class>
+                  <a href="/about/" data-view="#main-view" class="item-link panel-close">
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">About</div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class>
+                  <a href="/form/" data-view="#main-view" class="item-link panel-close">
+                    <div class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Form</div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init ios-edges" data-url="/">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar" style="color:#fff; background-color:#282829;">
+            <div class="navbar-inner">
+              <div class="left">
+              <a href="#" class="link back" data-panel="left">
+                <i class="icon icon-back"></i>
+                <!--<i class="icon material-icons md-only">menu</i>-->
+              </a>
+              </div>
+              <div class="title center sliding" >Request Appointment</div>
+
+
+            </div>
+          </div>
+          <div class="toolbar tabbar toolbar-bottom-md tabbar-labels">
+            <div class="toolbar-inner">
+              <a href="#" data-tab="#home" class="active tab-link">
+                <i class="icon f7-icons">home</i>
+                <span class="tabbar-labels">Home</span>
+              </a>
+              <a href="#" data-tab="#home" class="active tab-link">
+                <i class="icon f7-icons">person</i>
+                <span class="tabbar-labels">User</span>
+              </a>
+              <a href="#" data-tab="#home" class="active tab-link">
+                <i class="icon f7-icons">settings_fill</i>
+                <span class="tabbar-labels">Settings</span>
+              </a>
+            </div>
+          </div>
+
+
+          <!-- Scrollable page content -->
+          <div class="page-content box">
+            <!--<p>Page content goes here</p>-->
+            <!-- Link to another page -->
+            <!--<a href="/about/">About app</a>-->
+
+            <div class="margin-top-div">
+              <div class="container-form-content" style="display:block;">
+                <div class="block-title" style="padding-top:20px;">Fill The Information</div>
+
+                <div class="list no-hairlines-md">
+                  <ul>
+                    <li class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-title item-floating-label">First Name</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="Your First Name" class>
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-title item-floating-label">Last Name</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="Your Last Name" class>
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-title item-floating-label">Mobile no</div>
+                        <div class="item-input-wrap">
+                          <input type="phone" placeholder="Your Mobile No" class>
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-title item-floating-label">Email</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="Your name" class>
+                          <span class="input-clear-button"></span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+			        </div>
+		         </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="../js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="../js/my-app.js"></script>
+  </body>
+</html>
